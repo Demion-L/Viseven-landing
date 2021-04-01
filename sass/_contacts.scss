@@ -1,0 +1,20 @@
+.contacts {
+  &__title {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 1.9rem;
+    text-align: center;
+    color: $mainColor;
+  }
+
+  &__nav {
+    max-width: 290px;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: space-between;
+    & a img:hover {
+      transition: all 0.1s ease-in;
+      transform: translateY(-5px) scale(1.3);
+    }
+  }
+}

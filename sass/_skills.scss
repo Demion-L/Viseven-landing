@@ -1,0 +1,28 @@
+.skills {
+  margin:0 50px 50px;
+  padding: 50px 250px 0;
+
+
+  &__title {
+    padding-bottom: 50px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1.9rem;
+    text-align: center;
+    color: $mainColor;
+  }
+
+  &__pics {
+     max-width: 950px;
+     display: flex;
+     justify-content: space-between
+    
+  }
+  &__pics-elem {
+     border: 1px solid none;
+     padding: 15px;
+     &:hover{
+      box-shadow: 0 0 15px rgb(222, 220, 228);
+     }
+}
+}

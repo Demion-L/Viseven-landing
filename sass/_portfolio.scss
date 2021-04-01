@@ -1,0 +1,31 @@
+.portfolio {
+  background-color: $bgSecondary;
+  padding: 0 250px;
+
+  &__title {
+    display: block;
+    padding: 50px 0;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1.9rem;
+    text-align: center;
+    color: $mainColor;
+  }
+
+  &__element {
+    margin-bottom: 50px;
+  }
+
+  &__description {
+    display: block;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration-line: underline;
+    color: $mainColor;
+    &:last-child{
+       padding-bottom: 50px;
+    }
+  }
+}
